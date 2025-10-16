@@ -11,7 +11,7 @@ namespace JokesWebApp.Data.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Joke",
+                name: "This joke is changed",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
